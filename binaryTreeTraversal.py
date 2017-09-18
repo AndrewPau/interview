@@ -19,6 +19,7 @@ class Node(object):
         self.val = val
         self.left = None
         self.right = None
+        
 # Should print 4, 21, 3, 100, 41, -1, -2
 root = Node(4)
 root.right = Node(3)
